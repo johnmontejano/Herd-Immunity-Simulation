@@ -9,7 +9,6 @@ class Person(object):
     def __init__(self, _id, is_vaccinated, infection=None):
         ''' We start out with is_alive = True, because we don't make vampires or zombies.
         All other values will be set by the simulation when it makes each Person object.
-
         If person is chosen to be infected when the population is created, the simulation
         should instantiate a Virus object and set it as the value
         self.infection. Otherwise, self.infection should be set to None.
