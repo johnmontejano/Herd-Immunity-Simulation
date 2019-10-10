@@ -54,9 +54,11 @@ class Simulation(object):
             Args:
                 initial_infected (int): The number of infected people that the simulation
                 will begin with.
+
             Returns:
                 list: A list of Person objects.
         '''
+        
         # TODO: Finish this method!  This method should be called when the simulation
         # begins, to create the population that will be used. This method should return
         # an array filled with Person objects that matches the specifications of the
@@ -93,7 +95,7 @@ class Simulation(object):
         while should_continue:
         # TODO: for every iteration of this loop, call self.time_step() to compute another
         # round of this simulation.
-        print('The simulation has ended after {time_step_counter} turns.'.format(time_step_counter))
+            print('The simulation has ended after {} turns.'.format(time_step_counter))
         pass
 
     def time_step(self):

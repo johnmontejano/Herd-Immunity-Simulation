@@ -1,10 +1,9 @@
 import os
-
+from person import Person
 class Logger(object):
     ''' Utility class responsible for logging all interactions during the simulation. '''
     # TODO: Write a test suite for this class to make sure each method is working
     # as expected.
-
     # PROTIP: Write your tests before you solve each function, that way you can
     # test them one by one as you write your class.
 
@@ -38,11 +37,26 @@ class Logger(object):
         or the other edge cases:
             "{person.ID} didn't infect {random_person.ID} because {'vaccinated' or 'already sick'} \n"
         '''
-        # TODO: Finish this method. Think about how the booleans passed (or not passed)
-        # represent all the possible edge cases. Use the values passed along with each person,
-        # along with whether they are sick or vaccinated when they interact to determine
-        # exactly what happened in the interaction and create a String, and write to your logfile.
-        
+        #select random person to infect
+        with open(self.file_name, 'a') as f:
+
+            if random_person_sick == True and did_infect == True:
+                f.write(f"{person._id} didn't infect {random_person._id} already sick \n")
+                
+            elif random_person_vacc == True and did_infect == True:
+                f.write(f"{person._id} didn't infect {random_person._id} already vaccinated \n")
+
+            elif did_infect == False:
+                f.write(f"{person._id} didn't infect {random_person._id} \n")
+
+            elif did_infect == True:
+                f.write(f"{person._id} infects {random_person._id} \n")
+
+            else:
+                f.write("SHOULDN'T HAPPEN")
+
+            
+
         pass
 
     def log_infection_survival(self, person, did_die_from_infection):
