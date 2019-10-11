@@ -13,10 +13,10 @@ class Person(object):
         should instantiate a Virus object and set it as the value
         self.infection. Otherwise, self.infection should be set to None.
         '''
-        self._id = None  # int
-        self.is_alive = True  # boolean
-        self.is_vaccinated = None  # boolean
-        self.infection = None  # Virus object or None
+        self._id = _id
+        self.is_alive = True  
+        self.is_vaccinated = is_vaccinated 
+        self.infection = infection 
 
     def did_survive_infection(self):
         ''' Generate a random number and compare to virus's mortality_rate.

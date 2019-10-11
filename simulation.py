@@ -1,4 +1,3 @@
-
 import random, sys
 random.seed(42)
 from person import Person
@@ -35,12 +34,8 @@ class Simulation(object):
         # TODO: Store each newly infected person's ID in newly_infected attribute.
         # At the end of each time step, call self._infect_newly_infected()
         # and then reset .newly_infected back to an empty list.
-<<<<<<< HEAD
-        self.population = [] # List of Person objects
-=======
         self.logger = None
         self.population = _create_population(initial_infected) # List of Person objects
->>>>>>> 445b8f61be6e86a3b5ed1b4e71cca81733a8d7a7
         self.pop_size = pop_size # Int
         self.next_person_id = 0 # Int
         self.virus = virus # Virus object
@@ -52,15 +47,12 @@ class Simulation(object):
         self.file_name = "{}_simulation_pop_{}_vp_{}_infected_{}.txt".format(
             virus_name, population_size, vacc_percentage, initial_infected)
         self.newly_infected = []
-        self.logger = Logger(self.file_name)
-        self.newly_infected.append()
 
     def _create_population(self, initial_infected):
         '''This method will create the initial population.
             Args:
                 initial_infected (int): The number of infected people that the simulation
                 will begin with.
-
             Returns:
                 list: A list of Person objects.
         '''
