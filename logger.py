@@ -1,15 +1,16 @@
+import os
+from person import Person
 class Logger(object):
     ''' Utility class responsible for logging all interactions during the simulation. '''
     # TODO: Write a test suite for this class to make sure each method is working
     # as expected.
-
     # PROTIP: Write your tests before you solve each function, that way you can
     # test them one by one as you write your class.
 
     def __init__(self, file_name):
         # TODO:  Finish this initialization method. The file_name passed should be the
         # full file name of the file that the logs will be written to.
-        self.file_name = None
+        self.file_name = file_name
 
     def write_metadata(self, pop_size, vacc_percentage, virus_name, mortality_rate,
                        basic_repro_num):
@@ -17,6 +18,8 @@ class Logger(object):
         The simulation class should use this method immediately to log the specific
         parameters of the simulation as the first line of the file.
         '''
+        with open(self.file_name, 'w') as f:
+            f.write(f"{pop_size}\t{vacc_percentage}\t{virus_name}\t{mortality_rate}\t{basic_repro_num}\n")
         # TODO: Finish this method. This line of metadata should be tab-delimited
         # it should create the text file that we will store all logs in.
         # TIP: Use 'w' mode when you open the file. For all other methods, use
@@ -34,10 +37,26 @@ class Logger(object):
         or the other edge cases:
             "{person.ID} didn't infect {random_person.ID} because {'vaccinated' or 'already sick'} \n"
         '''
-        # TODO: Finish this method. Think about how the booleans passed (or not passed)
-        # represent all the possible edge cases. Use the values passed along with each person,
-        # along with whether they are sick or vaccinated when they interact to determine
-        # exactly what happened in the interaction and create a String, and write to your logfile.
+        #select random person to infect
+        with open(self.file_name, 'a') as f:
+
+            if random_person_sick == True and did_infect == True:
+                f.write(f"{person._id} didn't infect {random_person._id} already sick \n")
+                
+            elif random_person_vacc == True and did_infect == True:
+                f.write(f"{person._id} didn't infect {random_person._id} already vaccinated \n")
+
+            elif did_infect == False:
+                f.write(f"{person._id} didn't infect {random_person._id} \n")
+
+            elif did_infect == True:
+                f.write(f"{person._id} infects {random_person._id} \n")
+
+            else:
+                f.write("SHOULDN'T HAPPEN")
+
+            
+
         pass
 
     def log_infection_survival(self, person, did_die_from_infection):

@@ -35,7 +35,12 @@ class Simulation(object):
         # TODO: Store each newly infected person's ID in newly_infected attribute.
         # At the end of each time step, call self._infect_newly_infected()
         # and then reset .newly_infected back to an empty list.
+<<<<<<< HEAD
         self.population = [] # List of Person objects
+=======
+        self.logger = None
+        self.population = _create_population(initial_infected) # List of Person objects
+>>>>>>> 445b8f61be6e86a3b5ed1b4e71cca81733a8d7a7
         self.pop_size = pop_size # Int
         self.next_person_id = 0 # Int
         self.virus = virus # Virus object
@@ -55,9 +60,11 @@ class Simulation(object):
             Args:
                 initial_infected (int): The number of infected people that the simulation
                 will begin with.
+
             Returns:
                 list: A list of Person objects.
         '''
+        
         # TODO: Finish this method!  This method should be called when the simulation
         # begins, to create the population that will be used. This method should return
         # an array filled with Person objects that matches the specifications of the
@@ -94,7 +101,7 @@ class Simulation(object):
         while should_continue:
         # TODO: for every iteration of this loop, call self.time_step() to compute another
         # round of this simulation.
-        print('The simulation has ended after {time_step_counter} turns.'.format(time_step_counter))
+            print('The simulation has ended after {} turns.'.format(time_step_counter))
         pass
 
     def time_step(self):
