@@ -44,12 +44,31 @@ class Logger(object):
                 # print('Infection Status --> ', infection_status)
                 f.write(infection_status)
     def log_infection_survival(self, person, did_die_from_infection):
+<<<<<<< HEAD
         with open(self.file_name, mode='a') as f:
             f.write('Infection Survival: \n')
             if not did_die_from_infection:
                 f.write(str(person._id) + ' survived infection' + '\n')
             else:
                 f.write(str(person._id) + ' died from infection.')
+=======
+<<<<<<< HEAD
+        ''' The Simulation object uses this method to log the results of every
+        call of a Person object's .resolve_infection() method.
+        The format of the log should be:
+            "{person.ID} died from infection\n" or "{person.ID} survived infection.\n"
+        '''
+        
+        with open(self.file_name, 'a') as f:
+            if did_die_from_infection:
+                f.write(f"{person._id} died because of infection\n")
+            else:
+                f.write(f"{person._id} survived the infection\n")
+=======
+        
+>>>>>>> 209281f74393786882a23e541eccaf5fc8bbb4d8
+
+>>>>>>> 434145310c8f4364a8477efe238c71844dd4e9cd
     def log_time_step(self, time_step_number):
         with open(self.file_name, mode='a') as f:
             f.write('Time Steps: ')
