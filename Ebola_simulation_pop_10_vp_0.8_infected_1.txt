@@ -201,6 +201,7 @@ Interaction Logs:
 8 did not infected 3
 Infection Survival: 
 8 survived infection
+8 survived the infection
 Time Steps: 0 ended -- Begin 1
 Interaction Logs: 
 8 did not infected 3
@@ -604,6 +605,8 @@ Interaction Logs:
 9 did not infected 3
 Infection Survival: 
 8 survived infection
+8 survived the infection
 Infection Survival: 
 9 survived infection
+9 survived the infection
 Time Steps: 1 ended -- Begin 2
