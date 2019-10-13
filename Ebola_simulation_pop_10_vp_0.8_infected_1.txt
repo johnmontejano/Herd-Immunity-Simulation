@@ -1,0 +1,609 @@
+10 	 0.8 	 Ebola 	 0.25 	 0.7 	 
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infect 9 because 9 is vaccinated or already sick.
+Interaction Logs: 
+8 did not infected 3
+Infection Survival: 
+8 survived infection
+Time Steps: 0 ended -- Begin 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 2
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 did not infected 6
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 1
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 7
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 3
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+8 did not infected 0
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 did not infected 4
+Interaction Logs: 
+8 infects 9
+Interaction Logs: 
+8 did not infected 5
+Interaction Logs: 
+8 infects 8
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 infects 9
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 7
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 infects 8
+Interaction Logs: 
+9 did not infected 5
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 0
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 3
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 2
+Interaction Logs: 
+9 did not infected 1
+Interaction Logs: 
+9 did not infected 4
+Interaction Logs: 
+9 did not infected 6
+Interaction Logs: 
+9 did not infected 3
+Infection Survival: 
+8 survived infection
+Infection Survival: 
+9 survived infection
+Time Steps: 1 ended -- Begin 2
