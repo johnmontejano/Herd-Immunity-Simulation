@@ -6,10 +6,10 @@ from virus import Virus
 
 
 class Simulation(object):
-    def __init__(self, population_size, v_percentage, v, initial_infected=1):
+    def __init__(self, pop_size, v_percentage, v, initial_infected=1):
         self.next_person_id = 0 # Int
         self.virus = v # Virus object
-        self.pop_size = population_size # Int
+        self.pop_size = pop_size # Int
         self.initial_infected = initial_infected # Int
         self.total_infected = initial_infected# Int
         self.current_infected = initial_infected # Int
