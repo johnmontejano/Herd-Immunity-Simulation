@@ -17,3 +17,19 @@ def test_simulation_instance():
     assert simulation.current_infected == 10
     assert simulation.newly_infected == []
     assert simulation.newly_dead == []
+
+def test_create_population():
+    virus = Virus('Laughing Virus', .35, .25)
+    simulation = Simulation(1000, 0.1, virus, 10)
+    vacc_count = 0
+    infected_count = 0
+    for person in simulation.population:
+        assert person.is_alive == True
+        if person.is_vaccinated:
+            vacc_count += 1
+        if person.infection != None:
+            infected_count +=1
+    assert vacc_count == 100
+    assert infected_count == 10
+    assert len(simulation.population) == 1000
+
