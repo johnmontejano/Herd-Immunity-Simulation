@@ -33,3 +33,5 @@ def test_create_population():
     assert infected_count == 10
     assert len(simulation.population) == 1000
 
+def test_simulation_should_continue():
+    

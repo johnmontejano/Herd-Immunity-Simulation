@@ -24,7 +24,7 @@ class Simulation(object):
         self.logger = Logger(self.file_name)
         self.logger.write_metadata(self.pop_size,self.vacc_percentage,self.virus.name, self.virus.mortality_rate, self.virus.repro_rate)
 
-    def _create_population(self, initial_infected):        
+    def create_population(self, initial_infected):        
         self.population = []
         vacc_count = int(self.pop_size * self.vacc_percentage)
         for i in range(vacc_count):
@@ -38,7 +38,7 @@ class Simulation(object):
             self.next_person_id += 1
         return self.population
 
-    def _simulation_should_continue(self):
+    def simulation_should_continue(self):
         vacc_count = 0
         self.total_dead = 0
         infected_count = 0
