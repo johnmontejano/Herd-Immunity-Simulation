@@ -18,7 +18,7 @@ class Simulation(object):
         self.file_name = f"{self.virus.name}_simulation_pop_{self.pop_size}_vp_{self.vacc_percentage}_infected_{self.initial_infected}.txt"
         self.newly_infected = []
         self.newly_dead = []
-        self.population = self._create_population(self.initial_infected)
+        self.population = self.create_population(self.initial_infected)
 
         #Create Logger and write metadata
         self.logger = Logger(self.file_name)
@@ -57,7 +57,7 @@ class Simulation(object):
         return True
     def run(self):
         time_step_counter = 0
-        while self._simulation_should_continue():
+        while self.simulation_should_continue():
             self.time_step()
             self.logger.log_time_step(time_step_counter)
             self._infect_newly_infected()
@@ -84,9 +84,6 @@ class Simulation(object):
                     self.current_infected -= 1
                     self.total_dead += 1
                     self.newly_dead.append(person._id)
-
-
-
     def interaction(self, person, random_person):
         assert person.is_alive == True
         assert random_person.is_alive == True

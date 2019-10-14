@@ -34,4 +34,8 @@ def test_create_population():
     assert len(simulation.population) == 1000
 
 def test_simulation_should_continue():
-    
+    virus = Virus('Laughing Virus', .35, .25)
+    simulation = Simulation(1000, 0.1, virus, 10)
+    for person in simulation.population:
+        person.is_alive == False
+    assert simulation.simulation_should_continue() == True
